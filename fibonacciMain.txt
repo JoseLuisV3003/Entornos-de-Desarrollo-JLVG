@@ -1,0 +1,14 @@
+package es.iessoterohernandez.daw.endes.fibonacciMain;
+
+import es.iessoterohernandez.daw.endes.fibonacci.fibonacci;
+
+public class Main {
+	 public static void main(String[] args) {
+		 fibonacci f = new fibonacci();
+		 int n = 10;
+		 for (int i = 0; i < n; i++) {
+		 System.out.print(f.fibonaci(i) + " ");
+		        }
+	 }
+}
+
